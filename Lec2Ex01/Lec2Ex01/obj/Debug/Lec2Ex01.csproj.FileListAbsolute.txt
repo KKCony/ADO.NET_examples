@@ -1,0 +1,11 @@
+C:\ADO .NET\202202\Workspace\Lec2Ex01\Lec2Ex01\bin\Debug\Lec2Ex01.exe.config
+C:\ADO .NET\202202\Workspace\Lec2Ex01\Lec2Ex01\bin\Debug\Lec2Ex01.exe
+C:\ADO .NET\202202\Workspace\Lec2Ex01\Lec2Ex01\bin\Debug\Lec2Ex01.pdb
+C:\ADO .NET\202202\Workspace\Lec2Ex01\Lec2Ex01\obj\Debug\Lec2Ex01.csproj.AssemblyReference.cache
+C:\ADO .NET\202202\Workspace\Lec2Ex01\Lec2Ex01\obj\Debug\Lec2Ex01.csproj.SuggestedBindingRedirects.cache
+C:\ADO .NET\202202\Workspace\Lec2Ex01\Lec2Ex01\obj\Debug\Lec2Ex01.Form1.resources
+C:\ADO .NET\202202\Workspace\Lec2Ex01\Lec2Ex01\obj\Debug\Lec2Ex01.Properties.Resources.resources
+C:\ADO .NET\202202\Workspace\Lec2Ex01\Lec2Ex01\obj\Debug\Lec2Ex01.csproj.GenerateResource.cache
+C:\ADO .NET\202202\Workspace\Lec2Ex01\Lec2Ex01\obj\Debug\Lec2Ex01.csproj.CoreCompileInputs.cache
+C:\ADO .NET\202202\Workspace\Lec2Ex01\Lec2Ex01\obj\Debug\Lec2Ex01.exe
+C:\ADO .NET\202202\Workspace\Lec2Ex01\Lec2Ex01\obj\Debug\Lec2Ex01.pdb
