@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "90318fa4-a323-466c-bc2b-57d690dbe3e8": {
+      "ProjectGuid": "90318fa4-a323-466c-bc2b-57d690dbe3e8",
+      "DisplayName": "Lec5Ex01",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

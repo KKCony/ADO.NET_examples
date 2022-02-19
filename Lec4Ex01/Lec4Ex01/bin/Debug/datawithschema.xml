@@ -1,0 +1,66 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Products">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ProductID" type="xs:int" />
+                <xs:element name="ProductName" type="xs:string" minOccurs="0" />
+                <xs:element name="ProductQR" type="xs:string" minOccurs="0" />
+                <xs:element name="Price" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Markup" msdata:ReadOnly="true" msdata:Expression="Price*0.3" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Orders">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OrderID" type="xs:int" />
+                <xs:element name="ProductID" type="xs:int" default="9999" minOccurs="0" />
+                <xs:element name="Qty" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Products" />
+        <xs:field xpath="ProductID" />
+      </xs:unique>
+      <xs:unique name="Unique_Product_QR">
+        <xs:selector xpath=".//Products" />
+        <xs:field xpath="ProductQR" />
+      </xs:unique>
+      <xs:unique name="Orders_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Orders" />
+        <xs:field xpath="OrderID" />
+      </xs:unique>
+      <xs:keyref name="fk_Orders_Products" refer="Constraint1" msdata:RelationName="rlt_Product_Orders">
+        <xs:selector xpath=".//Orders" />
+        <xs:field xpath="ProductID" />
+      </xs:keyref>
+    </xs:element>
+  </xs:schema>
+  <Products>
+    <ProductID>2</ProductID>
+    <ProductName>Bananas</ProductName>
+    <ProductQR>0xfeff</ProductQR>
+    <Price>0.5</Price>
+    <Markup>0.15</Markup>
+  </Products>
+  <Products>
+    <ProductID>3</ProductID>
+    <ProductName>Papaya</ProductName>
+    <ProductQR>0xaaaa</ProductQR>
+    <Price>5000</Price>
+    <Markup>1500.0</Markup>
+  </Products>
+  <Orders>
+    <OrderID>1</OrderID>
+    <ProductID>2</ProductID>
+    <Qty>6</Qty>
+  </Orders>
+</NewDataSet>

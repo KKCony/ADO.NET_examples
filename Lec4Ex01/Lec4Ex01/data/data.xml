@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Products>
+    <ProductID>1</ProductID>
+    <ProductName>Apples</ProductName>
+    <ProductQR>0xffff</ProductQR>
+    <Price>4.5</Price>
+    <Markup>1.35</Markup>
+  </Products>
+  <Products>
+    <ProductID>2</ProductID>
+    <ProductName>Bananas</ProductName>
+    <ProductQR>0xfeff</ProductQR>
+    <Price>0.5</Price>
+    <Markup>0.15</Markup>
+  </Products>
+  <Products>
+    <ProductID>3</ProductID>
+    <ProductName>Papaya</ProductName>
+    <ProductQR>0xaaaa</ProductQR>
+    <Price>32</Price>
+    <Markup>9.6</Markup>
+  </Products>
+  <Orders>
+    <OrderID>1</OrderID>
+    <ProductID>2</ProductID>
+    <Qty>6</Qty>
+  </Orders>
+</NewDataSet>

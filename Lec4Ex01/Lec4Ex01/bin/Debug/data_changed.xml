@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+  <NewDataSet>
+    <Products diffgr:id="Products2" msdata:rowOrder="0">
+      <ProductID>2</ProductID>
+      <ProductName>Bananas</ProductName>
+      <ProductQR>0xfeff</ProductQR>
+      <Price>0.5</Price>
+      <Markup>0.15</Markup>
+    </Products>
+    <Products diffgr:id="Products3" msdata:rowOrder="1" diffgr:hasChanges="modified">
+      <ProductID>3</ProductID>
+      <ProductName>Papaya</ProductName>
+      <ProductQR>0xaaaa</ProductQR>
+      <Price>5000</Price>
+      <Markup>1500.0</Markup>
+    </Products>
+    <Orders diffgr:id="Orders1" msdata:rowOrder="0">
+      <OrderID>1</OrderID>
+      <ProductID>2</ProductID>
+      <Qty>6</Qty>
+    </Orders>
+  </NewDataSet>
+  <diffgr:before>
+    <Products diffgr:id="Products3" msdata:rowOrder="1">
+      <ProductID>3</ProductID>
+      <ProductName>Papaya</ProductName>
+      <ProductQR>0xaaaa</ProductQR>
+      <Price>32</Price>
+      <Markup>9.6</Markup>
+    </Products>
+  </diffgr:before>
+</diffgr:diffgram>
